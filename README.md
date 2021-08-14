@@ -1,2 +1,4 @@
-# social-profile
-This is social profile challenge by front end mentor. Solved by using HTML and CSS
+# social-proof  
+This is social proof challenge by front end mentor. Solved by using HTML and CSS
+
+live preview: https://codersuresh.github.io/social-profile
