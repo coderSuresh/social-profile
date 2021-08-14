@@ -43,6 +43,7 @@ main {
     line-height: 1.5;
     opacity: 0.7;
 }
+
 .box-2, .box-3 {
     margin-top: 20px;
 }
@@ -112,6 +113,7 @@ main {
 
 .name  {
     font-weight: 600;
+    font-size: 00.873rem;
 }
 
 .verified {
