@@ -1,0 +1,267 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Spartan', sans-serif;
+}
+
+body {
+     background-image: url('images/bg-pattern-top-desktop.svg'), url('images/bg-pattern-bottom-desktop.svg');
+    background-repeat: no-repeat;
+    background-position: top 0 left 0, right 0 bottom 0;
+}
+
+main {
+    margin: 6vw 10%;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.dark-magenta {
+    color: hsl(300, 43%, 22%);
+}
+
+.left {
+    width: 40%;
+}
+
+.title {
+    font-size: 3rem;
+}
+
+.description {
+    margin-top: 20px;
+    font-size: 0.873rem;
+    font-weight: 500;
+    line-height: 1.5;
+    opacity: 0.7;
+}
+.box-2, .box-3 {
+    margin-top: 20px;
+}
+
+.box {
+    display: flex;
+    align-items: center;
+    background-color: hsl(300, 24%, 96%);
+    padding: 15px 50px;
+    border-radius: 7px;
+    font-weight: 700;
+    text-align: left;
+    font-size: 00.873rem;
+}
+
+.box-1 {
+    margin-right: 100px;
+}
+
+.box-2 {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+.box-3 {
+    margin-left: 100px;
+}
+
+.rated {
+    margin-left: 30px;
+}
+
+.star {
+    margin-right: 5px;
+}
+
+.bottom {
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card {
+    background-color: hsl(300, 43%, 22%);
+    width: fit-content;
+    padding: 40px 30px;
+    width: 30%;
+    border-radius: 7px;
+    color: hsl(0, 0%, 100%);
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    font-size: 00.873rem;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 60px;
+}
+
+.info {
+    margin-left: 30px;
+}
+
+.name  {
+    font-weight: 600;
+}
+
+.verified {
+    margin-top: 5px;
+    color: hsl(333, 80%, 67%);
+}
+
+.profile-description {
+    font-size: 0.8rem;
+    margin-top: 20px;
+    line-height: 1.5;
+}
+
+.card-2 {
+    margin-top: 30px;
+}
+
+.card-3 {
+    margin-top: 70px;
+}
+
+@media (max-width: 1270px) {
+    .title {
+        font-size: 2.5rem;
+    }
+}
+
+@media (max-width: 1250px) {
+    .box {
+        padding: 10px 20px;
+    }
+}
+
+@media (max-width: 1160px) {
+    main {
+       margin: 6vh 5%;
+    }
+}
+
+@media (max-width: 1120px) {
+    body {
+        background-position: top 0 left -10vw, right -10vw bottom 0;
+    }
+}
+
+@media (max-width: 1020px) {
+
+    .box-1 {
+        margin-right: 50px;
+    }
+
+    .box-2 {
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .box-3 {
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 960px) {
+
+   .title {
+       font-size: 2rem;
+   }
+
+   body {
+    background-position: top 0 left -20vw, right -20vw bottom 0;
+   }
+}
+
+@media (max-width: 880px) {
+   .star {
+       width: 12px;
+   }
+
+   .rated {
+       margin-left: 15px;
+   }
+}
+
+@media (max-width: 840px) {
+
+    body {
+        background-image: url('images/bg-pattern-top-mobile.svg'), url('images/bg-pattern-bottom-mobile.svg');
+        background-repeat: no-repeat;
+        background-position: top 0 left 0, right 0 bottom 0;
+    }
+   
+    .top {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .description {
+        width: 60%;
+        margin: 20px auto 0;
+    }
+
+    .title {
+        font-size: 2.5rem;
+    }
+
+    .left, .right {
+        width: 100%;
+    }
+
+    .right {
+        margin-top: 50px;
+    }
+
+    .star {
+        width: 20px;
+    }
+
+    .rated {
+        margin-top: 20px;
+    }
+
+    .box {
+        flex-direction: column;
+    }
+
+    .box-1, .box-2, .box-3 {
+        margin: 20px 0;
+    }
+
+    .bottom {
+        flex-direction: column;
+    }
+
+    .card {
+        width: 60%;
+        margin: 20px 0;
+    }
+
+}
+
+@media (max-width: 530px) {
+    .description {
+        width: 100%;
+    }
+
+    .card {
+        width: 100%;
+    }
+
+    .title {
+        font-size: 2rem;
+    }
+}
